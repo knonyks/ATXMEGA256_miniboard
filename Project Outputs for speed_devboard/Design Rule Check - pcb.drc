@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Schematics\Projects\speed_devboard\pcb.PcbDoc
 Date     : 19/03/2024
-Time     : 23:04:50
+Time     : 23:53:00
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -167,7 +167,7 @@ Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (1mil < 10mil) Between Pad C9-2(3720mil,4220mil) on Top Layer And Track (3685mil,4115mil)(3685mil,4245mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1mil]
    Violation between Silk To Solder Mask Clearance Constraint: (1mil < 10mil) Between Pad C9-2(3720mil,4220mil) on Top Layer And Track (3685mil,4245mil)(3755mil,4245mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1mil]
    Violation between Silk To Solder Mask Clearance Constraint: (1mil < 10mil) Between Pad C9-2(3720mil,4220mil) on Top Layer And Track (3755mil,4115mil)(3755mil,4245mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (7.081mil < 10mil) Between Pad CP1-1(4340mil,4190mil) on Top Layer And Text "20" (4403.071mil,4160.197mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.081mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (5.077mil < 10mil) Between Pad CP1-1(4340mil,4220mil) on Top Layer And Text "20" (4403.071mil,4160.197mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.077mil]
    Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad D1-1(3960mil,4020mil) on Top Layer And Text "D1" (3991mil,4004mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
    Violation between Silk To Solder Mask Clearance Constraint: (1mil < 10mil) Between Pad D1-1(3960mil,4020mil) on Top Layer And Track (3925mil,3995mil)(3925mil,4125mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1mil]
    Violation between Silk To Solder Mask Clearance Constraint: (1mil < 10mil) Between Pad D1-1(3960mil,4020mil) on Top Layer And Track (3925mil,3995mil)(3995mil,3995mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1mil]
@@ -253,7 +253,6 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
    Violation between Silk To Silk Clearance Constraint: (7.039mil < 10mil) Between Text "10" (3031.929mil,3299.803mil) on Top Overlay And Track (3017.953mil,2219.095mil)(3017.953mil,4230.905mil) on Top Overlay Silk Text to Silk Clearance [7.039mil]
    Violation between Silk To Silk Clearance Constraint: (7.039mil < 10mil) Between Text "10" (4403.071mil,3160.197mil) on Top Overlay And Track (4417.047mil,2229.095mil)(4417.047mil,4240.905mil) on Top Overlay Silk Text to Silk Clearance [7.039mil]
    Violation between Silk To Silk Clearance Constraint: (7.039mil < 10mil) Between Text "20" (3031.929mil,2299.803mil) on Top Overlay And Track (3017.953mil,2219.095mil)(3017.953mil,4230.905mil) on Top Overlay Silk Text to Silk Clearance [7.039mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "20" (4403.071mil,4160.197mil) on Top Overlay And Text "CP1" (4308mil,4228mil) on Top Overlay Silk Text to Silk Clearance [0mil]
    Violation between Silk To Silk Clearance Constraint: (7.039mil < 10mil) Between Text "20" (4403.071mil,4160.197mil) on Top Overlay And Track (4417.047mil,2229.095mil)(4417.047mil,4240.905mil) on Top Overlay Silk Text to Silk Clearance [7.039mil]
    Violation between Silk To Silk Clearance Constraint: (0.019mil < 10mil) Between Text "C1" (4019mil,4256mil) on Top Overlay And Text "C7" (4019mil,4186mil) on Top Overlay Silk Text to Silk Clearance [0.019mil]
    Violation between Silk To Silk Clearance Constraint: (8.803mil < 10mil) Between Text "C1" (4019mil,4256mil) on Top Overlay And Track (4005mil,4185mil)(4005mil,4255mil) on Top Overlay Silk Text to Silk Clearance [8.803mil]
@@ -292,9 +291,8 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "C9" (3689mil,4236mil) on Top Overlay And Track (3685mil,4115mil)(3685mil,4245mil) on Top Overlay Silk Text to Silk Clearance [0mil]
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "C9" (3689mil,4236mil) on Top Overlay And Track (3685mil,4245mil)(3755mil,4245mil) on Top Overlay Silk Text to Silk Clearance [0mil]
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "C9" (3689mil,4236mil) on Top Overlay And Track (3755mil,4115mil)(3755mil,4245mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "CP1" (4308mil,4228mil) on Top Overlay And Text "P3" (4367mil,4280mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (1.977mil < 10mil) Between Text "CP1" (4308mil,4228mil) on Top Overlay And Track (4417.047mil,2229.095mil)(4417.047mil,4240.905mil) on Top Overlay Silk Text to Silk Clearance [1.977mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "CP1" (4308mil,4228mil) on Top Overlay And Track (4417.047mil,4240.905mil)(4522.953mil,4240.905mil) on Top Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "CP1" (4308mil,4258mil) on Top Overlay And Text "P3" (4367mil,4280mil) on Top Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (8.158mil < 10mil) Between Text "CP1" (4308mil,4258mil) on Top Overlay And Track (4417.047mil,4240.905mil)(4522.953mil,4240.905mil) on Top Overlay Silk Text to Silk Clearance [8.158mil]
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "D1" (3991mil,4004mil) on Top Overlay And Track (3925mil,3995mil)(3925mil,4125mil) on Top Overlay Silk Text to Silk Clearance [0mil]
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "D1" (3991mil,4004mil) on Top Overlay And Track (3925mil,3995mil)(3995mil,3995mil) on Top Overlay Silk Text to Silk Clearance [0mil]
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "D1" (3991mil,4004mil) on Top Overlay And Track (3995mil,3995mil)(3995mil,4125mil) on Top Overlay Silk Text to Silk Clearance [0mil]
@@ -343,7 +341,7 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "U2" (3988mil,4132mil) on Top Overlay And Track (4005mil,4185mil)(4135mil,4185mil) on Top Overlay Silk Text to Silk Clearance [0mil]
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "Y1" (3775.908mil,4168.844mil) on Top Overlay And Track (3830mil,4105mil)(3830mil,4235mil) on Top Overlay Silk Text to Silk Clearance [0mil]
    Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "Y1" (3775.908mil,4168.844mil) on Top Overlay And Track (3830mil,4105mil)(3900mil,4105mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-Rule Violations :95
+Rule Violations :93
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
@@ -352,6 +350,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 309
+Violations Detected : 307
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
