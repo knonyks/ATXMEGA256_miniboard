@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "ATXMega256A3B-AU")(type "KiCad")(uri "C:/Users/Szymon/Desktop/ATXMEGA256_miniboard/kicad/lib/ATXMega256A3B-AU")(options "")(descr ""))
+  (lib (name "ATXMega256A3B-AU")(type "KiCad")(uri "${KIPRJMOD}/lib/ATXMega256A3B-AU")(options "")(descr ""))
 )

@@ -845,7 +845,7 @@
     (solder_mask_margin 0.102) (tstamp b875be28-a43a-4319-92cd-f772cc83a55e))
   (pad "64" smd rect (at -5.9944 -7.62) (size 0.508 1.4732) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 9cfad201-2b94-4745-924b-fbdfc173fa32))
-  (model "../lib/ATXMega256A3B-AU/ATXMEGA256A3B-AU.STEP"
+  (model "${KIPRJMOD}/lib/ATXMega256A3B-AU/ATXMEGA256A3B-AU.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
