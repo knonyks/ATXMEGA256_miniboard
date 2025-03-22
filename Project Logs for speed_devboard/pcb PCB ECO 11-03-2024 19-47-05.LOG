@@ -1,0 +1,9 @@
+Added Component: Designator=CP1(PAD_SQUARE)
+Added Component: Designator=CP2(PAD_SQUARE)
+Added Pin To Net: NetName=VBAT Pin=CP1-1
+Added Pin To Net: NetName=GND Pin=CP2-1
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Added Member To Class: ClassName=quick_schematic Member=Component CP1 CONNECT_PAD
+Added Member To Class: ClassName=quick_schematic Member=Component CP2 CONNECT_PAD
+Add Class Member: Failed to add class member : Component D1 Light-Emitting Diode

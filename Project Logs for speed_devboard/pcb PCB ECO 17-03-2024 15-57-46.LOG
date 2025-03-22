@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=VBAT Pin=P3-18
+Removed Pin From Net: NetName=GND Pin=P3-20
+Change Component Footprint: Designator=P2 Old Footprint=61302011121 New Footprint=61302011121
+Change Component Footprint: Designator=P3 Old Footprint=61302011121 New Footprint=61302011121
+Change Component Designator: OldDesignator=P2 NewDesignator=P?
+Change Component Designator: OldDesignator=P3 NewDesignator=P?
+Added Pin To Net: NetName=GND Pin=P?-18
+Added Pin To Net: NetName=VBAT Pin=P?-20
+Change Net Name : Old Net Name=NetP2_1 New Net Name=NetP?_1
+Change Net Name : Old Net Name=NetP2_2 New Net Name=NetP?_2
+Change Net Name : Old Net Name=NetP2_3 New Net Name=NetP?_3
+Change Net Name : Old Net Name=NetP2_4 New Net Name=NetP?_4
+Change Net Name : Old Net Name=NetP2_5 New Net Name=NetP?_5
+Change Net Name : Old Net Name=NetP2_6 New Net Name=NetP?_6
+Change Net Name : Old Net Name=NetP2_7 New Net Name=NetP?_7
+Change Net Name : Old Net Name=NetP2_8 New Net Name=NetP?_8
+Change Net Name : Old Net Name=NetP2_9 New Net Name=NetP?_9
+Change Net Name : Old Net Name=NetP2_10 New Net Name=NetP?_10
+Change Net Name : Old Net Name=NetP2_11 New Net Name=NetP?_11
+Change Net Name : Old Net Name=NetP2_12 New Net Name=NetP?_12
+Change Net Name : Old Net Name=NetP2_13 New Net Name=NetP?_13
+Change Net Name : Old Net Name=NetP2_14 New Net Name=NetP?_14
+Change Net Name : Old Net Name=NetP2_15 New Net Name=NetP?_15
+Change Net Name : Old Net Name=NetP2_16 New Net Name=NetP?_16
+Change Net Name : Old Net Name=NetP2_17 New Net Name=NetP?_17
+Change Net Name : Old Net Name=NetP2_18 New Net Name=NetP?_18

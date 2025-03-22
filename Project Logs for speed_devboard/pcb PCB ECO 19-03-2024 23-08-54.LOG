@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=XTAL_N Pin=U1-
+Added Component: Designator=CP2(PAD_SQUARE)
+Added Pin To Net: NetName=GND Pin=CP2-1
+Add Pin To Net: Unknown Pin: Pin U1-58
+Added Member To Class: ClassName=quick_schematic Member=Component CP2 CONNECT_PAD

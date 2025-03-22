@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=J2-1
+Removed Pin From Net: NetName=TDO Pin=J2-3
+Removed Pin From Net: NetName=TCK Pin=J2-5
+Removed Pin From Net: NetName=TDI Pin=J2-7
+Removed Pin From Net: NetName=TMS Pin=J2-9
+Removed Member From Class: ClassName=quick_schematic Member=J2
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=TDO Pin=J1-3
+Added Pin To Net: NetName=TCK Pin=J1-5
+Added Pin To Net: NetName=TDI Pin=J1-7
+Added Pin To Net: NetName=TMS Pin=J1-9

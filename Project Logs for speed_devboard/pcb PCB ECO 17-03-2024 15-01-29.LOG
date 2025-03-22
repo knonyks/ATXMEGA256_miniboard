@@ -1,0 +1,148 @@
+Removed Pin From Net: NetName=GND Pin=J1-19
+Removed Pin From Net: NetName=3V3 Pin=J1-20
+Removed Pin From Net: NetName=PD0 Pin=J2-1
+Removed Pin From Net: NetName=PD1 Pin=J2-2
+Removed Pin From Net: NetName=PD2 Pin=J2-3
+Removed Pin From Net: NetName=PD3 Pin=J2-4
+Removed Pin From Net: NetName=PD4 Pin=J2-5
+Removed Pin From Net: NetName=PD5 Pin=J2-6
+Removed Pin From Net: NetName=PD6 Pin=J2-7
+Removed Pin From Net: NetName=PD7 Pin=J2-8
+Removed Pin From Net: NetName=GND Pin=J2-9
+Removed Pin From Net: NetName=PE0 Pin=J2-10
+Removed Pin From Net: NetName=PE1 Pin=J2-11
+Removed Pin From Net: NetName=PE2 Pin=J2-12
+Removed Pin From Net: NetName=PE3 Pin=J2-13
+Removed Pin From Net: NetName=PE4 Pin=J2-14
+Removed Pin From Net: NetName=PE5 Pin=J2-15
+Removed Pin From Net: NetName=PE6 Pin=J2-16
+Removed Pin From Net: NetName=PE7 Pin=J2-17
+Removed Pin From Net: NetName=GND Pin=J2-18
+Removed Pin From Net: NetName=VBAT Pin=J2-19
+Removed Pin From Net: NetName=VBAT Pin=J2-20
+Removed Member From Class: ClassName=quick_schematic Member=J1
+Removed Member From Class: ClassName=quick_schematic Member=J2
+Added Component: Designator=CASTH1(CASTHEADERX10)
+Added Component: Designator=CASTH2(CASTHEADERX10)
+Added Component: Designator=CASTH3(CASTHEADERX10)
+Added Component: Designator=CASTH4(CASTHEADERX10)
+Added Pin To Net: NetName=PD0 Pin=CASTH2-1
+Added Pin To Net: NetName=PD0 Pin=CASTH2-1
+Added Pin To Net: NetName=PD1 Pin=CASTH2-2
+Added Pin To Net: NetName=PD1 Pin=CASTH2-2
+Added Pin To Net: NetName=PD2 Pin=CASTH2-3
+Added Pin To Net: NetName=PD2 Pin=CASTH2-3
+Added Pin To Net: NetName=PD3 Pin=CASTH2-4
+Added Pin To Net: NetName=PD3 Pin=CASTH2-4
+Added Pin To Net: NetName=PD4 Pin=CASTH2-5
+Added Pin To Net: NetName=PD4 Pin=CASTH2-5
+Added Pin To Net: NetName=PD5 Pin=CASTH2-6
+Added Pin To Net: NetName=PD5 Pin=CASTH2-6
+Added Pin To Net: NetName=PD6 Pin=CASTH2-7
+Added Pin To Net: NetName=PD6 Pin=CASTH2-7
+Added Pin To Net: NetName=PD7 Pin=CASTH2-8
+Added Pin To Net: NetName=PD7 Pin=CASTH2-8
+Added Pin To Net: NetName=GND Pin=CASTH2-9
+Added Pin To Net: NetName=GND Pin=CASTH2-9
+Added Pin To Net: NetName=PE0 Pin=CASTH2-10
+Added Pin To Net: NetName=PE0 Pin=CASTH2-10
+Added Pin To Net: NetName=GND Pin=CASTH3-9
+Added Pin To Net: NetName=GND Pin=CASTH3-9
+Added Pin To Net: NetName=3V3 Pin=CASTH3-10
+Added Pin To Net: NetName=3V3 Pin=CASTH3-10
+Added Pin To Net: NetName=PE1 Pin=CASTH4-1
+Added Pin To Net: NetName=PE1 Pin=CASTH4-1
+Added Pin To Net: NetName=PE2 Pin=CASTH4-2
+Added Pin To Net: NetName=PE2 Pin=CASTH4-2
+Added Pin To Net: NetName=PE3 Pin=CASTH4-3
+Added Pin To Net: NetName=PE3 Pin=CASTH4-3
+Added Pin To Net: NetName=PE4 Pin=CASTH4-4
+Added Pin To Net: NetName=PE4 Pin=CASTH4-4
+Added Pin To Net: NetName=PE5 Pin=CASTH4-5
+Added Pin To Net: NetName=PE5 Pin=CASTH4-5
+Added Pin To Net: NetName=PE6 Pin=CASTH4-6
+Added Pin To Net: NetName=PE6 Pin=CASTH4-6
+Added Pin To Net: NetName=PE7 Pin=CASTH4-7
+Added Pin To Net: NetName=PE7 Pin=CASTH4-7
+Added Pin To Net: NetName=GND Pin=CASTH4-8
+Added Pin To Net: NetName=GND Pin=CASTH4-8
+Added Pin To Net: NetName=VBAT Pin=CASTH4-9
+Added Pin To Net: NetName=VBAT Pin=CASTH4-9
+Added Pin To Net: NetName=VBAT Pin=CASTH4-10
+Added Pin To Net: NetName=VBAT Pin=CASTH4-10
+Added Pin To Net: NetName=NetCASTH1_1 Pin=CASTH1-1
+Added Pin To Net: NetName=NetCASTH1_1 Pin=CASTH1-1
+Added Pin To Net: NetName=NetCASTH1_1 Pin=U1-62
+Added Net: Name=NetCASTH1_1
+Added Pin To Net: NetName=NetCASTH1_2 Pin=CASTH1-2
+Added Pin To Net: NetName=NetCASTH1_2 Pin=CASTH1-2
+Added Pin To Net: NetName=NetCASTH1_2 Pin=U1-63
+Added Net: Name=NetCASTH1_2
+Added Pin To Net: NetName=NetCASTH1_3 Pin=CASTH1-3
+Added Pin To Net: NetName=NetCASTH1_3 Pin=CASTH1-3
+Added Pin To Net: NetName=NetCASTH1_3 Pin=U1-64
+Added Net: Name=NetCASTH1_3
+Added Pin To Net: NetName=NetCASTH1_4 Pin=CASTH1-4
+Added Pin To Net: NetName=NetCASTH1_4 Pin=CASTH1-4
+Added Pin To Net: NetName=NetCASTH1_4 Pin=U1-1
+Added Net: Name=NetCASTH1_4
+Added Pin To Net: NetName=NetCASTH1_5 Pin=CASTH1-5
+Added Pin To Net: NetName=NetCASTH1_5 Pin=CASTH1-5
+Added Pin To Net: NetName=NetCASTH1_5 Pin=U1-2
+Added Net: Name=NetCASTH1_5
+Added Pin To Net: NetName=NetCASTH1_6 Pin=CASTH1-6
+Added Pin To Net: NetName=NetCASTH1_6 Pin=CASTH1-6
+Added Pin To Net: NetName=NetCASTH1_6 Pin=U1-3
+Added Net: Name=NetCASTH1_6
+Added Pin To Net: NetName=NetCASTH1_7 Pin=CASTH1-7
+Added Pin To Net: NetName=NetCASTH1_7 Pin=CASTH1-7
+Added Pin To Net: NetName=NetCASTH1_7 Pin=U1-4
+Added Net: Name=NetCASTH1_7
+Added Pin To Net: NetName=NetCASTH1_8 Pin=CASTH1-8
+Added Pin To Net: NetName=NetCASTH1_8 Pin=CASTH1-8
+Added Pin To Net: NetName=NetCASTH1_8 Pin=U1-5
+Added Net: Name=NetCASTH1_8
+Added Pin To Net: NetName=NetCASTH1_9 Pin=CASTH1-9
+Added Pin To Net: NetName=NetCASTH1_9 Pin=CASTH1-9
+Added Pin To Net: NetName=NetCASTH1_9 Pin=U1-8
+Added Net: Name=NetCASTH1_9
+Added Pin To Net: NetName=NetCASTH1_10 Pin=CASTH1-10
+Added Pin To Net: NetName=NetCASTH1_10 Pin=CASTH1-10
+Added Pin To Net: NetName=NetCASTH1_10 Pin=U1-9
+Added Net: Name=NetCASTH1_10
+Added Pin To Net: NetName=NetCASTH3_1 Pin=CASTH3-1
+Added Pin To Net: NetName=NetCASTH3_1 Pin=CASTH3-1
+Added Pin To Net: NetName=NetCASTH3_1 Pin=U1-16
+Added Net: Name=NetCASTH3_1
+Added Pin To Net: NetName=NetCASTH3_2 Pin=CASTH3-2
+Added Pin To Net: NetName=NetCASTH3_2 Pin=CASTH3-2
+Added Pin To Net: NetName=NetCASTH3_2 Pin=U1-17
+Added Net: Name=NetCASTH3_2
+Added Pin To Net: NetName=NetCASTH3_3 Pin=CASTH3-3
+Added Pin To Net: NetName=NetCASTH3_3 Pin=CASTH3-3
+Added Pin To Net: NetName=NetCASTH3_3 Pin=U1-18
+Added Net: Name=NetCASTH3_3
+Added Pin To Net: NetName=NetCASTH3_4 Pin=CASTH3-4
+Added Pin To Net: NetName=NetCASTH3_4 Pin=CASTH3-4
+Added Pin To Net: NetName=NetCASTH3_4 Pin=U1-19
+Added Net: Name=NetCASTH3_4
+Added Pin To Net: NetName=NetCASTH3_5 Pin=CASTH3-5
+Added Pin To Net: NetName=NetCASTH3_5 Pin=CASTH3-5
+Added Pin To Net: NetName=NetCASTH3_5 Pin=U1-20
+Added Net: Name=NetCASTH3_5
+Added Pin To Net: NetName=NetCASTH3_6 Pin=CASTH3-6
+Added Pin To Net: NetName=NetCASTH3_6 Pin=CASTH3-6
+Added Pin To Net: NetName=NetCASTH3_6 Pin=U1-21
+Added Net: Name=NetCASTH3_6
+Added Pin To Net: NetName=NetCASTH3_7 Pin=CASTH3-7
+Added Pin To Net: NetName=NetCASTH3_7 Pin=CASTH3-7
+Added Pin To Net: NetName=NetCASTH3_7 Pin=U1-22
+Added Net: Name=NetCASTH3_7
+Added Pin To Net: NetName=NetCASTH3_8 Pin=CASTH3-8
+Added Pin To Net: NetName=NetCASTH3_8 Pin=CASTH3-8
+Added Pin To Net: NetName=NetCASTH3_8 Pin=U1-23
+Added Net: Name=NetCASTH3_8
+Added Member To Class: ClassName=quick_schematic Member=Component CASTH1 CastHeaderx10
+Added Member To Class: ClassName=quick_schematic Member=Component CASTH2 CastHeaderx10
+Added Member To Class: ClassName=quick_schematic Member=Component CASTH3 CastHeaderx10
+Added Member To Class: ClassName=quick_schematic Member=Component CASTH4 CastHeaderx10
