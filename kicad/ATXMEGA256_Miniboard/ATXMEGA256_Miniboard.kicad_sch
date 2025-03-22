@@ -14092,44 +14092,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 10.16 -60.96)
-		(size 219.71 45.72)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dccabe5b-825e-4201-acca-c3c79aa6ad1e")
-		(property "Sheetname" "flash_stick"
-			(at 10.16 -61.6716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "flash_stick.kicad_sch"
-			(at 10.16 -14.6554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ATXMEGA256_Miniboard"
-				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(page "3")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

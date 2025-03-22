@@ -792,12 +792,6 @@
 		(uuid "0685df4a-35a7-4199-963e-f7834904f800")
 	)
 	(junction
-		(at 82.55 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07f5c855-fa98-4b6b-a6c7-f46a1d3112b4")
-	)
-	(junction
 		(at 110.49 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -820,6 +814,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ef8778e-a01d-412d-9007-d1d1c053978e")
+	)
+	(junction
+		(at 72.39 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "751d5e22-5624-4439-81a0-37fdc48bd2ed")
 	)
 	(junction
 		(at 87.63 46.99)
@@ -949,6 +949,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e2733d-a181-4751-abb7-723fa187ac91")
+	)
+	(wire
+		(pts
 			(xy 144.78 66.04) (xy 118.11 66.04)
 		)
 		(stroke
@@ -969,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 46.99) (xy 82.55 46.99)
+			(xy 64.77 46.99) (xy 72.39 46.99)
 		)
 		(stroke
 			(width 0)
@@ -989,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 82.55 54.61)
+			(xy 72.39 55.88) (xy 72.39 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1016,16 +1026,6 @@
 			(type default)
 		)
 		(uuid "99cfdbe7-68f0-45c3-a126-aaeee27ab484")
-	)
-	(wire
-		(pts
-			(xy 82.55 46.99) (xy 87.63 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a5cac9-e2e2-466c-ad80-42754ac83f15")
 	)
 	(wire
 		(pts
@@ -1670,7 +1670,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 82.55 50.8 270)
+		(at 72.39 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1678,7 +1678,7 @@
 		(dnp no)
 		(uuid "7f54eb3f-a3ef-45ef-a371-48948f084933")
 		(property "Reference" "D1"
-			(at 85.598 49.276 90)
+			(at 75.438 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1687,7 @@
 			)
 		)
 		(property "Value" "1SS404"
-			(at 85.598 51.816 90)
+			(at 75.438 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 78.105 50.8 0)
+			(at 67.945 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1705,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 82.55 50.8 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1714,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 82.55 50.8 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1723,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 50.8 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1732,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 50.8 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2118,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 55.88 0)
+		(at 72.39 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2127,7 +2127,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec9947c6-2e41-436b-8bba-5164cb6da33a")
 		(property "Reference" "#PWR06"
-			(at 82.55 62.23 0)
+			(at 72.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 60.96 0)
+			(at 72.39 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 55.88 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 55.88 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 55.88 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
