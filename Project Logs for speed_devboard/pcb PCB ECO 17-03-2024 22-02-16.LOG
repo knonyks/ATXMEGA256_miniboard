@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=NetC3_2 Pin=L1-1
-Removed Member From Class: ClassName=quick_schematic Member=L1
-Added Pin To Net: NetName=NetC3_2 Pin=C1-2
-Added Pin To Net: NetName=NetC3_2 Pin=C7-2
-Added Pin To Net: NetName=NetC3_2 Pin=D1-1
-Added Pin To Net: NetName=NetC3_2 Pin=J1-10
-Added Pin To Net: NetName=NetC3_2 Pin=P2-20
-Added Pin To Net: NetName=NetC3_2 Pin=U2-2
-Change Net Name : Old Net Name=NetC3_2 New Net Name=3V3
