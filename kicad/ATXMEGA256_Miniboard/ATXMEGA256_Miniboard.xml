@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>C:\Users\Szymon\Desktop\ATXMEGA256_miniboard\kicad\ATXMEGA256_Miniboard\ATXMEGA256_Miniboard.kicad_sch</source>
-    <date>01/04/2025 02:11:49</date>
+    <date>19/04/2025 16:19:20</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ATXMEGA256 Miniboard</title>
         <company>Koło Naukowe Mikrosystemów ONYKS</company>
-        <rev>1.0</rev>
+        <rev>1.1</rev>
         <date>2025-03-19</date>
         <source>ATXMEGA256_Miniboard.kicad_sch</source>
         <comment number="1" value="Szymon Bartosik, Mateusz Turycz"/>
@@ -26,9 +26,27 @@
       <title_block>
         <title>ATXMEGA256 Miniboard</title>
         <company>Koło Naukowe Mikrosystemów ONYKS</company>
-        <rev>1.0</rev>
+        <rev>1.1</rev>
         <date>2025-03-19</date>
         <source>power_supply.kicad_sch</source>
+        <comment number="1" value="Szymon Bartosik, Mateusz Turycz"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Wszytskie elementy RLC są w obudowach SMD 0603 o ile nie \n zaznaczono inaczej."/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/GPIO Connectors/" tstamps="/310cf5a3-b597-43ba-9125-314fa4b04872/">
+      <title_block>
+        <title>ATXMEGA256 Miniboard</title>
+        <company>Koło Naukowe Mikrosystemów ONYKS</company>
+        <rev>1.1</rev>
+        <date>2025-03-19</date>
+        <source>gpio_connectors.kicad_sch</source>
         <comment number="1" value="Szymon Bartosik, Mateusz Turycz"/>
         <comment number="2" value=""/>
         <comment number="3" value="Wszytskie elementy RLC są w obudowach SMD 0603 o ile nie \n zaznaczono inaczej."/>
@@ -43,44 +61,159 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>12p</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="Manufacturer">KEMET</field>
-        <field name="Package">0603</field>
-        <field name="Part Number">C0603C120J5GAC</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">C0805C104J4RACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C0603C120J5GAC"/>
+      <property name="Part Number" value="C0805C104J4RACTU"/>
       <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="0603"/>
+      <property name="Package" value="0805"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>684a59ea-6368-4e75-bfc9-5b1ebb549196</tstamps>
+      <tstamps>e4c586bf-a356-4eaa-b796-bd9a08279c54</tstamps>
     </comp>
     <comp ref="C2">
-      <value>12p</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="Manufacturer">KEMET</field>
-        <field name="Package">0603</field>
-        <field name="Part Number">C0603C120J5GAC</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">C0805C104J4RACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Package" value="0603"/>
+      <property name="Part Number" value="C0805C104J4RACTU"/>
       <property name="Manufacturer" value="KEMET"/>
-      <property name="Part Number" value="C0603C120J5GAC"/>
+      <property name="Package" value="0805"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>611127fd-76d0-4711-84fb-d99843b9df4b</tstamps>
+      <tstamps>40328a29-9aed-463e-ad86-c6268fe9f372</tstamps>
     </comp>
     <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">C0805C104J4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="C0805C104J4RACTU"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44748727-482e-4fd3-9433-babc0bf64a6c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">C0805C104J4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="C0805C104J4RACTU"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5071d99-ce89-4a0a-968d-46ec582ef582</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">C0805C104J4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="C0805C104J4RACTU"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a29100ef-67f9-470d-a3e6-76b6768f5de5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">1210</field>
+        <field name="Part Number">C1210C106K4RAC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="C1210C106K4RAC"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Package" value="1210"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93e50ba1-cc7c-46c5-82b7-1b96e8b20531</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">C0805C104J4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="C0805C104J4RACTU"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>120024c5-e513-4047-a02e-bbc9834fc290</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">C0805C104J4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="C0805C104J4RACTU"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53dc7b6c-bf98-4771-a62d-c068cca7dd92</tstamps>
+    </comp>
+    <comp ref="C9">
       <value>4n7</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
@@ -99,7 +232,77 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>216201ba-4fab-4100-b024-a41f07c58542</tstamps>
     </comp>
+    <comp ref="C10">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">C0603C120J5GAC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="C0603C120J5GAC"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>684a59ea-6368-4e75-bfc9-5b1ebb549196</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">C0603C120J5GAC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Part Number" value="C0603C120J5GAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>611127fd-76d0-4711-84fb-d99843b9df4b</tstamps>
+    </comp>
     <comp ref="J1">
+      <value>1x2 Screw Terminal</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <fields>
+        <field name="Manufacturer">DEGSON ELECTRONICS</field>
+        <field name="Part Number">DG381-3.5-02P-13-00AH</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="DG381-3.5-02P-13-00AH"/>
+      <property name="Manufacturer" value="DEGSON ELECTRONICS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88c44d9a-4a7d-4bc2-893e-909d68466b97</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>10118192-0001LF</value>
+      <footprint>10118192-0001LF:AMPHENOL_10118192-0001LF</footprint>
+      <fields>
+        <field name="Manufacturer">Amphenol</field>
+        <field name="Part Number">10118192-0001LF</field>
+      </fields>
+      <libsource lib="10118192-0001LF" part="10118192-0001LF" description=""/>
+      <property name="Part Number" value="10118192-0001LF"/>
+      <property name="Manufacturer" value="Amphenol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef434a5b-5bb1-492b-9939-a86eb01b05f2</tstamps>
+    </comp>
+    <comp ref="J3">
       <value>2x5 IDC Socket</value>
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <fields>
@@ -116,24 +319,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>74dd869c-0303-40b1-acfc-15f705ab62ae</tstamps>
     </comp>
-    <comp ref="J2">
-      <value>1x2 Screw Terminal</value>
-      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+    <comp ref="J4">
+      <value>2x3 Goldpin Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD</footprint>
       <fields>
-        <field name="Manufacturer">DEGSON ELECTRONICS</field>
-        <field name="Part Number">DG381-3.5-02P-13-00AH</field>
+        <field name="Manufacturer">NINIGI</field>
+        <field name="Part Number">ZL264-6DG</field>
       </fields>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="DG381-3.5-02P-13-00AH"/>
-      <property name="Manufacturer" value="DEGSON ELECTRONICS"/>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="ZL264-6DG"/>
+      <property name="Manufacturer" value="NINIGI"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>39fbc0c3-fc15-42dc-ab52-ab5dba921343</tstamps>
+      <tstamps>f5756838-86cd-4220-bbd7-cbc9f4cffbfa</tstamps>
     </comp>
-    <comp ref="J3">
+    <comp ref="J5">
       <value>2x3 Goldpin Header</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD</footprint>
       <fields>
@@ -150,209 +353,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5d81ac93-0506-4b82-a1e9-4d40d58e0776</tstamps>
     </comp>
-    <comp ref="J4">
-      <value>2x5 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+    <comp ref="L1">
+      <value>2u2</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-10DG</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Package">0805</field>
+        <field name="Part Number">MLZ2012A2R2WT000</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-10DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Part Number" value="MLZ2012A2R2WT000"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Package" value="0805"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b6d47f46-0616-4fdc-ac22-c028ad7fd810</tstamps>
-    </comp>
-    <comp ref="J5">
-      <value>2x5 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
-      <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-10DG</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-10DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ed7656f5-0aa5-4c8f-9488-0c3fdbe16d2b</tstamps>
-    </comp>
-    <comp ref="J6">
-      <value>2x5 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
-      <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-10DG</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-10DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0759a0fd-aed9-4572-a6ec-4b146f1f1987</tstamps>
-    </comp>
-    <comp ref="J7">
-      <value>2x3 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD</footprint>
-      <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-6DG</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-6DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>07d917bb-7a2d-4b42-a2fa-f35a1d4bcbc8</tstamps>
-    </comp>
-    <comp ref="J8">
-      <value>2x5 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
-      <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-10DG</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-10DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>65045c30-dca4-46bd-a615-06b9a74cc38e</tstamps>
-    </comp>
-    <comp ref="J9">
-      <value>1x2 Goldpin Header</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="Manufacturer">CONNFLY</field>
-        <field name="Part Number">DS1021-1X2SF162-B</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
-      <property name="Part Number" value="DS1021-1X2SF162-B"/>
-      <property name="Manufacturer" value="CONNFLY"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>19152c85-97ae-4b70-ba9d-5a05ed1cb498</tstamps>
-    </comp>
-    <comp ref="J10">
-      <value>1x2 Goldpin Header</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="Manufacturer">CONNFLY</field>
-        <field name="Part Number">DS1021-1X2SF162-B</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
-      <property name="Part Number" value="DS1021-1X2SF162-B"/>
-      <property name="Manufacturer" value="CONNFLY"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>13c1eb3e-4095-4e2b-89e0-9701394a51bd</tstamps>
-    </comp>
-    <comp ref="J11">
-      <value>2x5 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
-      <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-10DG</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-10DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>59519688-baac-4e65-adbc-769fa764455d</tstamps>
-    </comp>
-    <comp ref="J12">
-      <value>1x2 Goldpin Header</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="Manufacturer">CONNFLY</field>
-        <field name="Part Number">DS1021-1X2SF162-B</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
-      <property name="Part Number" value="DS1021-1X2SF162-B"/>
-      <property name="Manufacturer" value="CONNFLY"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f3bed775-fee9-44b9-b6ea-adfca808812d</tstamps>
-    </comp>
-    <comp ref="J13">
-      <value>USB micro B 2.0 Socket</value>
-      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal</footprint>
-      <fields>
-        <field name="Manufacturer">Amphenol</field>
-        <field name="Part Number">10118192-0001LF</field>
-      </fields>
-      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
-      <property name="Part Number" value="10118192-0001LF"/>
-      <property name="Manufacturer" value="Amphenol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="USB Micro Type B connector"/>
-      <property name="ki_keywords" value="connector USB micro"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7a2c1808-735c-4fb6-8bf9-32b8c74e19c2</tstamps>
-    </comp>
-    <comp ref="J14">
-      <value>2x3 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD</footprint>
-      <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-6DG</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-6DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>012b9e61-ace7-457f-8ab6-c83c7ded32b7</tstamps>
-    </comp>
-    <comp ref="J15">
-      <value>2x3 Goldpin Socket</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD</footprint>
-      <fields>
-        <field name="Manufacturer">NINIGI</field>
-        <field name="Part Number">ZL264-6DG</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Part Number" value="ZL264-6DG"/>
-      <property name="Manufacturer" value="NINIGI"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ATXMEGA256_Miniboard.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f5756838-86cd-4220-bbd7-cbc9f4cffbfa</tstamps>
+      <tstamps>81100fd7-2a73-4fc1-bcd7-f7f836738333</tstamps>
     </comp>
     <comp ref="R1">
       <value>10k</value>
@@ -464,7 +482,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e17d4ddd-b39e-4776-a772-19749ee41e5a</tstamps>
     </comp>
-    <comp ref="C4">
+    <comp ref="C12">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
       <fields>
@@ -483,7 +501,7 @@
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>686f71b7-0657-4454-a6a8-60270245e2f6</tstamps>
     </comp>
-    <comp ref="C5">
+    <comp ref="C13">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
       <fields>
@@ -502,7 +520,7 @@
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>0341b993-bbcd-4769-8f40-523ff86c7806</tstamps>
     </comp>
-    <comp ref="C6">
+    <comp ref="C14">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
       <fields>
@@ -520,139 +538,6 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>0cd9f3dc-0ced-4a8d-8024-6295516caea9</tstamps>
-    </comp>
-    <comp ref="C7">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Package">0805</field>
-        <field name="Part Number">C0805C104J4RACTU</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C0805C104J4RACTU"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="0805"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>028ba2bb-391d-42d5-8fad-7b7a1263069f</tstamps>
-    </comp>
-    <comp ref="C8">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Package">0805</field>
-        <field name="Part Number">C0805C104J4RACTU</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C0805C104J4RACTU"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="0805"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>892f8a4e-2db0-4bf2-b714-7807f71b95f4</tstamps>
-    </comp>
-    <comp ref="C9">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Package">0805</field>
-        <field name="Part Number">C0805C104J4RACTU</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C0805C104J4RACTU"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="0805"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>50d192f9-0c66-4064-bc1e-36e5e63eebfc</tstamps>
-    </comp>
-    <comp ref="C10">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Package">0805</field>
-        <field name="Part Number">C0805C104J4RACTU</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C0805C104J4RACTU"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="0805"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>ed1c5d05-c663-4dbc-a4e5-6b4d98ab2759</tstamps>
-    </comp>
-    <comp ref="C11">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Package">0805</field>
-        <field name="Part Number">C0805C104J4RACTU</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C0805C104J4RACTU"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="0805"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>911163a2-0e72-48fc-8254-e6e941650796</tstamps>
-    </comp>
-    <comp ref="C12">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Package">1210</field>
-        <field name="Part Number">C1210C106K4RAC</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C1210C106K4RAC"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="1210"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>ac388398-4b85-4fb9-bc21-e0f612b423aa</tstamps>
-    </comp>
-    <comp ref="C13">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">KEMET</field>
-        <field name="Package">0805</field>
-        <field name="Part Number">C0805C104J4RACTU</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Part Number" value="C0805C104J4RACTU"/>
-      <property name="Manufacturer" value="KEMET"/>
-      <property name="Package" value="0805"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>8362f745-5693-488d-bc44-8abe940df610</tstamps>
     </comp>
     <comp ref="D1">
       <value>RED LED</value>
@@ -673,7 +558,7 @@
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>9f1289ed-82e3-45d3-941f-1198f9b1b13f</tstamps>
     </comp>
-    <comp ref="J16">
+    <comp ref="J6">
       <value>1x2 Goldpin Header</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
@@ -690,7 +575,7 @@
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>651fa741-6723-4194-be6b-58714538e319</tstamps>
     </comp>
-    <comp ref="J17">
+    <comp ref="J7">
       <value>1x2 Goldpin Header</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
@@ -707,7 +592,7 @@
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>6a13a1ff-089d-4b2b-be38-ec3cd626fe1b</tstamps>
     </comp>
-    <comp ref="J18">
+    <comp ref="J8">
       <value>1x3 Goldpin Header</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <fields>
@@ -724,7 +609,7 @@
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>7a456306-989b-4878-a79c-2b22eaa47646</tstamps>
     </comp>
-    <comp ref="L1">
+    <comp ref="L2">
       <value>10u</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
       <fields>
@@ -742,25 +627,6 @@
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>883ab02b-1408-431b-8fdd-647286273069</tstamps>
-    </comp>
-    <comp ref="L2">
-      <value>2u2</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Manufacturer">TDK</field>
-        <field name="Package">0805</field>
-        <field name="Part Number">MLZ2012A2R2WT000</field>
-      </fields>
-      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
-      <property name="Part Number" value="MLZ2012A2R2WT000"/>
-      <property name="Manufacturer" value="TDK"/>
-      <property name="Package" value="0805"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Inductor with ferrite core"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
-      <tstamps>0fa15a09-2427-4e22-81fd-a4ce89412de2</tstamps>
     </comp>
     <comp ref="Q1">
       <value>MMFTP3334K</value>
@@ -835,8 +701,127 @@
       <sheetpath names="/Power Supply/" tstamps="/1d37de11-1936-4242-b544-634b362ae3ca/"/>
       <tstamps>0c40ff7b-43fa-458e-9a56-0129dd5379a6</tstamps>
     </comp>
+    <comp ref="J9">
+      <value>2x5 Goldpin Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Manufacturer">NINIGI</field>
+        <field name="Part Number">ZL264-10DG</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="ZL264-10DG"/>
+      <property name="Manufacturer" value="NINIGI"/>
+      <property name="Sheetname" value="GPIO Connectors"/>
+      <property name="Sheetfile" value="gpio_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/GPIO Connectors/" tstamps="/310cf5a3-b597-43ba-9125-314fa4b04872/"/>
+      <tstamps>35629912-566c-4d2d-b7b9-a890741be476</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>2x5 Goldpin Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Manufacturer">NINIGI</field>
+        <field name="Part Number">ZL264-10DG</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="ZL264-10DG"/>
+      <property name="Manufacturer" value="NINIGI"/>
+      <property name="Sheetname" value="GPIO Connectors"/>
+      <property name="Sheetfile" value="gpio_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/GPIO Connectors/" tstamps="/310cf5a3-b597-43ba-9125-314fa4b04872/"/>
+      <tstamps>bd71600b-2bb5-4e50-8a39-31ab09deed17</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>2x5 Goldpin Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Manufacturer">NINIGI</field>
+        <field name="Part Number">ZL264-10DG</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="ZL264-10DG"/>
+      <property name="Manufacturer" value="NINIGI"/>
+      <property name="Sheetname" value="GPIO Connectors"/>
+      <property name="Sheetfile" value="gpio_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/GPIO Connectors/" tstamps="/310cf5a3-b597-43ba-9125-314fa4b04872/"/>
+      <tstamps>21525bf0-df80-4e52-ad76-4082f1e8d921</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>2x3 Goldpin Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Manufacturer">NINIGI</field>
+        <field name="Part Number">ZL264-6DG</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="ZL264-6DG"/>
+      <property name="Manufacturer" value="NINIGI"/>
+      <property name="Sheetname" value="GPIO Connectors"/>
+      <property name="Sheetfile" value="gpio_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/GPIO Connectors/" tstamps="/310cf5a3-b597-43ba-9125-314fa4b04872/"/>
+      <tstamps>04435ac6-5bde-4bfb-b13b-ee85342a9f68</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>2x5 Goldpin Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Manufacturer">NINIGI</field>
+        <field name="Part Number">ZL264-10DG</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="ZL264-10DG"/>
+      <property name="Manufacturer" value="NINIGI"/>
+      <property name="Sheetname" value="GPIO Connectors"/>
+      <property name="Sheetfile" value="gpio_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/GPIO Connectors/" tstamps="/310cf5a3-b597-43ba-9125-314fa4b04872/"/>
+      <tstamps>e7e6fa54-bb69-488d-a729-ae8995c52fda</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>2x5 Goldpin Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Manufacturer">NINIGI</field>
+        <field name="Part Number">ZL264-10DG</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="ZL264-10DG"/>
+      <property name="Manufacturer" value="NINIGI"/>
+      <property name="Sheetname" value="GPIO Connectors"/>
+      <property name="Sheetfile" value="gpio_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/GPIO Connectors/" tstamps="/310cf5a3-b597-43ba-9125-314fa4b04872/"/>
+      <tstamps>7a389f3f-5bf3-413f-be9c-ce85b1377d4d</tstamps>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="10118192-0001LF" part="10118192-0001LF">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10118192-0001LF</field>
+        <field name="Footprint">10118192-0001LF:AMPHENOL_10118192-0001LF</field>
+        <field name="Part Number">10118192-0001LF</field>
+        <field name="Manufacturer">Amphenol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VUSB" type="passive"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="ATXMEGA256A3B-AU" part="ATXMEGA256A3B-AU">
       <fields>
         <field name="Reference">U</field>
@@ -960,26 +945,6 @@
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="USB_B_Micro">
-      <description>USB Micro Type B connector</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_B_Micro</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-" type="bidirectional"/>
-        <pin num="3" name="D+" type="bidirectional"/>
-        <pin num="4" name="ID" type="passive"/>
-        <pin num="5" name="GND" type="power_out"/>
-        <pin num="6" name="Shield" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
@@ -1195,6 +1160,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="10118192-0001LF">
+      <uri>C:\Users\Szymon\Desktop\ATXMEGA256_miniboard\kicad\ATXMEGA256_Miniboard/lib/10118192-0001LF/10118192-0001LF.kicad_sym</uri>
+    </library>
     <library logical="ATXMEGA256A3B-AU">
       <uri>C:\Users\Szymon\Desktop\ATXMEGA256_miniboard\kicad\ATXMEGA256_Miniboard/lib/ATXMega256A3B-AU/ATXMEGA256A3B-AU.kicad_sym</uri>
     </library>
@@ -1222,226 +1190,226 @@
   </libraries>
   <nets>
     <net code="3" name="+3V3">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VOUT" pintype="power_out"/>
     </net>
     <net code="4" name="+5V">
-      <node ref="J13" pin="1" pinfunction="VBUS" pintype="power_out"/>
-      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VUSB" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="5" name="/PA0">
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="5" name="/D+">
+      <node ref="J2" pin="3" pinfunction="D+" pintype="passive"/>
+    </net>
+    <net code="6" name="/D-">
+      <node ref="J2" pin="2" pinfunction="D-" pintype="passive"/>
+    </net>
+    <net code="7" name="/PA0">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="62" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="6" name="/PA1">
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="8" name="/PA1">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="63" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/PA2">
-      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="9" name="/PA2">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="64" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/PA3">
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="10" name="/PA3">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/PA4">
-      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    <net code="11" name="/PA4">
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/PA5">
-      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="12" name="/PA5">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/PA6">
-      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    <net code="13" name="/PA6">
+      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="12" name="/PA7">
-      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="14" name="/PA7">
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/PB0">
-      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="16" name="/PB0">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/PB1">
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="17" name="/PB1">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="16" name="/PB2">
-      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="18" name="/PB2">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="17" name="/PB3">
-      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="19" name="/PB3">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="18" name="/PB4">
-      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    <net code="20" name="/PB4">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="19" name="/PB5">
-      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="21" name="/PB5">
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="20" name="/PB6">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    <net code="22" name="/PB6">
+      <node ref="J10" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="21" name="/PB7">
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="23" name="/PB7">
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="23" name="/PC0">
-      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="25" name="/PC0">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="PC0" pintype="bidirectional"/>
     </net>
-    <net code="24" name="/PC1">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="26" name="/PC1">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="PC1" pintype="bidirectional"/>
     </net>
-    <net code="25" name="/PC2">
-      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="27" name="/PC2">
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="PC2" pintype="bidirectional"/>
     </net>
-    <net code="26" name="/PC3">
-      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="28" name="/PC3">
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="PC3" pintype="bidirectional"/>
     </net>
-    <net code="27" name="/PC4">
-      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="29" name="/PC4">
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="PC4" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/PC5">
-      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="30" name="/PC5">
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="21" pinfunction="PC5" pintype="bidirectional"/>
     </net>
-    <net code="29" name="/PC6">
-      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    <net code="31" name="/PC6">
+      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="U1" pin="22" pinfunction="PC6" pintype="bidirectional"/>
     </net>
-    <net code="30" name="/PC7">
-      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    <net code="32" name="/PC7">
+      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U1" pin="23" pinfunction="PC7" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/PD0">
-      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="34" name="/PD0">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="PD0" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/PD1">
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="35" name="/PD1">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="27" pinfunction="PD1" pintype="bidirectional"/>
     </net>
-    <net code="34" name="/PD2">
-      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="36" name="/PD2">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="PD2" pintype="bidirectional"/>
     </net>
-    <net code="35" name="/PD3">
-      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="37" name="/PD3">
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="29" pinfunction="PD3" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/PD4">
-      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="38" name="/PD4">
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="30" pinfunction="PD4" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/PD5">
-      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="39" name="/PD5">
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="PD5" pintype="bidirectional"/>
     </net>
-    <net code="38" name="/PD6">
-      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U1" pin="32" pinfunction="PD6" pintype="bidirectional"/>
+    <net code="40" name="/PD6">
+      <node ref="J13" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
-    <net code="39" name="/PD7">
-      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="U1" pin="33" pinfunction="PD7" pintype="bidirectional"/>
+    <net code="41" name="/PD7">
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="40" name="/PDI_DATA">
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="42" name="/PDI_DATA">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="56" pinfunction="PDI" pintype="passive"/>
     </net>
-    <net code="42" name="/PE0">
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="44" name="/PE0">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="36" pinfunction="PE0" pintype="bidirectional"/>
     </net>
-    <net code="43" name="/PE1">
-      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="45" name="/PE1">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="37" pinfunction="PE1" pintype="bidirectional"/>
     </net>
-    <net code="44" name="/PE2">
-      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="46" name="/PE2">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="38" pinfunction="PE2" pintype="bidirectional"/>
     </net>
-    <net code="45" name="/PE3">
-      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="47" name="/PE3">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="39" pinfunction="PE3" pintype="bidirectional"/>
     </net>
-    <net code="46" name="/PE4">
-      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="48" name="/PE4">
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="40" pinfunction="PE4" pintype="bidirectional"/>
     </net>
-    <net code="47" name="/PE5">
-      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="49" name="/PE5">
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="41" pinfunction="PE5" pintype="bidirectional"/>
     </net>
-    <net code="49" name="/PF0">
-      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="51" name="/PF0">
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="46" pinfunction="PF0" pintype="bidirectional"/>
     </net>
-    <net code="50" name="/PF1">
-      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="52" name="/PF1">
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="47" pinfunction="PF1" pintype="bidirectional"/>
     </net>
-    <net code="51" name="/PF2">
-      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="53" name="/PF2">
+      <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="48" pinfunction="PF2" pintype="bidirectional"/>
     </net>
-    <net code="52" name="/PF3">
-      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="54" name="/PF3">
+      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="49" pinfunction="PF3" pintype="bidirectional"/>
     </net>
-    <net code="53" name="/PF4">
-      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="55" name="/PF4">
+      <node ref="J14" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="50" pinfunction="PF4" pintype="bidirectional"/>
     </net>
-    <net code="54" name="/PF6">
-      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    <net code="56" name="/PF6">
+      <node ref="J14" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="U1" pin="54" pinfunction="PF6" pintype="bidirectional"/>
     </net>
-    <net code="55" name="/PF7">
-      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    <net code="57" name="/PF7">
+      <node ref="J14" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U1" pin="55" pinfunction="PF7" pintype="bidirectional"/>
     </net>
-    <net code="56" name="/Power Supply/+3V3_MCU_AVCC">
-      <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C13" pin="2" pintype="passive"/>
-      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="61" pinfunction="AVCC" pintype="power_in"/>
+    <net code="58" name="/Power Supply/VCC_EXT">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="57" name="/Power Supply/+3V3_MCU_VCC">
-      <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="59" name="/Power Supply/VCC_MCU">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="VCC_2" pintype="power_in"/>
       <node ref="U1" pin="25" pinfunction="VCC_3" pintype="power_in"/>
@@ -1449,27 +1417,25 @@
       <node ref="U1" pin="45" pinfunction="VCC_5" pintype="power_in"/>
       <node ref="U1" pin="53" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="58" name="/Power Supply/EXT_VCC">
-      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="60" name="/VBAT">
+      <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="VBAT" pintype="bidirectional"/>
     </net>
-    <net code="59" name="/VBAT">
-      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="61" name="/~{RESET}">
-      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="62" name="/~{RESET}">
+      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="57" pinfunction="RESET/PDI" pintype="input"/>
     </net>
-    <net code="62" name="GND">
+    <net code="63" name="GND">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
@@ -1480,23 +1446,21 @@
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="J13" pin="5" pinfunction="GND" pintype="power_out"/>
-      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J15" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J15" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J10" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J13" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J14" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
@@ -1512,93 +1476,81 @@
       <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(D1-A)">
+    <net code="64" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(J10-Pin_2)">
-      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J13" pin="3" pinfunction="D+" pintype="bidirectional"/>
-    </net>
-    <net code="65" name="Net-(J12-Pin_1)">
-      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U1" pin="51" pinfunction="VBAT" pintype="bidirectional"/>
-    </net>
-    <net code="66" name="Net-(J13-D-)">
-      <node ref="J13" pin="2" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="67" name="Net-(J13-Shield)">
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="J13" pin="6" pinfunction="Shield" pintype="passive"/>
+    <net code="65" name="Net-(J2-SHIELD)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="SHIELD" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(J14-Pin_1)">
-      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="66" name="Net-(J6-Pin_1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(J14-Pin_6)">
-      <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="67" name="Net-(J7-Pin_2)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(J16-Pin_2)">
-      <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U2" pin="3" pinfunction="VOUT" pintype="power_out"/>
-    </net>
-    <net code="71" name="Net-(J17-Pin_2)">
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="72" name="Net-(J18-Pin_2)">
-      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="68" name="Net-(J8-Pin_2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q1" pin="3" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(JP1-A)">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="69" name="Net-(JP1-C)">
+      <node ref="U1" pin="33" pinfunction="PD7" pintype="bidirectional"/>
     </net>
-    <net code="74" name="Net-(JP1-C)">
-      <node ref="U1" pin="58" pinfunction="PR0" pintype="bidirectional"/>
+    <net code="70" name="Net-(JP2-C)">
+      <node ref="U1" pin="32" pinfunction="PD6" pintype="bidirectional"/>
     </net>
-    <net code="75" name="Net-(JP2-A)">
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="76" name="Net-(JP2-C)">
-      <node ref="U1" pin="59" pinfunction="PR1" pintype="bidirectional"/>
-    </net>
-    <net code="77" name="Net-(Q1-Pad1)">
+    <net code="71" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(U1-TOSC1)">
+    <net code="72" name="Net-(U1-AVCC)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="AVCC" pintype="power_in"/>
+    </net>
+    <net code="73" name="Net-(U1-PR0)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="PR0" pintype="bidirectional"/>
+      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(U1-PR1)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="PR1" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(U1-TOSC1)">
       <node ref="U1" pin="43" pinfunction="TOSC1" pintype="bidirectional"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(U1-TOSC2)">
+    <net code="76" name="Net-(U1-TOSC2)">
       <node ref="U1" pin="42" pinfunction="TOSC2" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(U2-VIN)">
-      <node ref="C4" pin="2" pintype="passive"/>
+    <net code="77" name="Net-(U2-VIN)">
+      <node ref="C12" pin="2" pintype="passive"/>
       <node ref="Q1" pin="2" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="81" name="unconnected-(J1-Pin_7-Pad7)">
-      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    <net code="78" name="unconnected-(J2-ID-Pad4)">
+      <node ref="J2" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(J1-Pin_8-Pad8)">
-      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    <net code="79" name="unconnected-(J3-Pin_7-Pad7)">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(J3-Pin_3-Pad3)">
-      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    <net code="80" name="unconnected-(J3-Pin_8-Pad8)">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(J3-Pin_4-Pad4)">
-      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    <net code="81" name="unconnected-(J5-Pin_3-Pad3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(J13-ID-Pad4)">
-      <node ref="J13" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    <net code="82" name="unconnected-(J5-Pin_4-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

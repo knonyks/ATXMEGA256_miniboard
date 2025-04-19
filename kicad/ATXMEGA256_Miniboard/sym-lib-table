@@ -3,4 +3,5 @@
   (lib (name "ATXMEGA256A3B-AU")(type "KiCad")(uri "${KIPRJMOD}/lib/ATXMega256A3B-AU/ATXMEGA256A3B-AU.kicad_sym")(options "")(descr ""))
   (lib (name "MCP1703A-3302E_DB")(type "KiCad")(uri "${KIPRJMOD}/lib/MCP1703A-3302E/MCP1703A-3302E_DB.kicad_sym")(options "")(descr ""))
   (lib (name "MMFTP3334K")(type "KiCad")(uri "${KIPRJMOD}/lib/MMFTP3334K/MMFTP3334K.kicad_sym")(options "")(descr ""))
+  (lib (name "10118192-0001LF")(type "KiCad")(uri "${KIPRJMOD}/lib/10118192-0001LF/10118192-0001LF.kicad_sym")(options "")(descr ""))
 )

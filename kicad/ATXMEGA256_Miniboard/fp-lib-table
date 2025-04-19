@@ -3,4 +3,5 @@
   (lib (name "ATXMega256A3B-AU")(type "KiCad")(uri "${KIPRJMOD}/lib/ATXMega256A3B-AU")(options "")(descr ""))
   (lib (name "MCP1703A-3302E")(type "KiCad")(uri "${KIPRJMOD}/lib/MCP1703A-3302E")(options "")(descr ""))
   (lib (name "MMFTP3334K")(type "KiCad")(uri "${KIPRJMOD}/lib/MMFTP3334K")(options "")(descr ""))
+  (lib (name "10118192-0001LF")(type "KiCad")(uri "${KIPRJMOD}/lib/10118192-0001LF")(options "")(descr ""))
 )
