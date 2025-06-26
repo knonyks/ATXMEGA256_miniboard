@@ -583,14 +583,50 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturet",
+          "name": "Manufacturet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -635,7 +671,15 @@
   "sheets": [
     [
       "ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71",
-      ""
+      "Root"
+    ],
+    [
+      "1d37de11-1936-4242-b544-634b362ae3ca",
+      "Power Supply"
+    ],
+    [
+      "310cf5a3-b597-43ba-9125-314fa4b04872",
+      "GPIO Connectors"
     ]
   ],
   "text_variables": {}
