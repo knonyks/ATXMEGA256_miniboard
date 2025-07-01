@@ -1,0 +1,68 @@
+Avrdude version 8.1-20250625 (b4403627)
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /usr/local/etc/avrdude.conf
+User configuration file /home/szymon/.avrduderc does not exist
+
+Using port            : usb
+Using programmer      : avrispmkII
+Setting baud rate     : 19200
+Usbdev_open(): found AVRISP mkII, serno: 000200212345
+AVR part              : ATxmega256A3BU
+Programming modes     : SPM, PDI, XMEGAJTAG
+Programmer type       : STK500V2
+Description           : USB Atmel AVR ISP mkII
+Programmer model      : AVRISP mkII
+HW version            : 0
+Serial number         : 000200212345
+FW Version Controller : 1.24
+Vtarget               : 3.3 V
+SCK period            : 8.0 us
+Silicon revision: 0.6
+
+AVR device initialized and ready to accept instructions
+Device signature = 1E 98 43 (ATxmega256A3B, ATxmega256A3BU)
+
+Processing -U fuses:r:./dump/fuses.dump:b
+Reading fuses memory ...
+Writing 6 bytes to output file fuses.dump
+
+Processing -U application:r:./dump/application.dump:i
+Reading application memory ...
+Reading | ################################################## | 100% 2.56s
+Writing 542 bytes to output file application.dump
+
+Processing -U apptable:r:./dump/apptable.dump:i
+Reading apptable memory ...
+Reading | ################################################## | 100% 0.08s
+Empty memory, resulting file has no contents
+Writing 0 bytes to output file apptable.dump
+
+Processing -U boot:r:./dump/boot.dump:i
+Reading boot memory ...
+Reading | ################################################## | 100% 0.08s
+Empty memory, resulting file has no contents
+Writing 0 bytes to output file boot.dump
+
+Processing -U eeprom:r:./dump/eeprom.dump:i
+Reading eeprom memory ...
+Reading | ################################################## | 100% 0.09s
+Writing 4096 bytes to output file eeprom.dump
+
+Processing -U signature:r:./dump/signature.dump:h
+Reading signature memory ...
+Writing 3 bytes to output file signature.dump
+
+Processing -U sernum:r:./dump/sernum.dump:h
+Reading sernum memory ...
+Writing 14 bytes to output file sernum.dump
+
+Processing -U tempsense:r:./dump/tempsense.dump:h
+Reading tempsense memory ...
+Writing 2 bytes to output file tempsense.dump
+
+Processing -U calibration:r:./dump/calibration.dump:h
+Reading calibration memory ...
+Writing 4 bytes to output file calibration.dump
+
+Avrdude done.  Thank you.

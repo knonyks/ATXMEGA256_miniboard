@@ -8134,7 +8134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07e6636c-8cd2-4d18-9e16-6dc280334127")
-		(property "Reference" "Y3"
+		(property "Reference" "Y1"
 			(at 223.52 95.25 0)
 			(effects
 				(font
@@ -8204,7 +8204,7 @@
 		(instances
 			(project ""
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "Y3")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -8220,7 +8220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f035393-012d-4115-a447-a4cdb5b18ae3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 87.63 194.31 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8442,7 +8442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20ac2660-29d7-4c9b-bd2a-7efd3d0dda28")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 102.87 149.86 0)
 			(effects
 				(font
@@ -8491,7 +8491,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8507,7 +8507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "216201ba-4fab-4100-b024-a41f07c58542")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 51.054 174.498 90)
 			(effects
 				(font
@@ -8587,7 +8587,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8602,7 +8602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24cb026d-57e4-430e-86b9-aebdcbeb923b")
-		(property "Reference" "C15"
+		(property "Reference" "C9"
 			(at 220.98 107.95 0)
 			(effects
 				(font
@@ -8682,7 +8682,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "C15")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8698,7 +8698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3abefcb7-703f-4ba5-8c04-d00b5fccc88f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR01"
 			(at 53.34 35.56 0)
 			(effects
 				(font
@@ -8748,7 +8748,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR036")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8952,7 +8952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c46632c-d2da-4f00-82e5-5292b9588082")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR012"
 			(at 133.35 163.83 0)
 			(effects
 				(font
@@ -9002,7 +9002,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR043")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9111,7 +9111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a55855f-d95a-4ff6-9e6f-2c8971d3c308")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 233.68 107.95 0)
 			(effects
 				(font
@@ -9191,7 +9191,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9207,7 +9207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d81ac93-0506-4b82-a1e9-4d40d58e0776")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 123.19 171.45 0)
 			(effects
 				(font
@@ -9215,7 +9215,7 @@
 				)
 			)
 		)
-		(property "Value" "2x3 Goldpin Header"
+		(property "Value" "2x3 IDC Socket"
 			(at 123.19 173.99 0)
 			(effects
 				(font
@@ -9223,7 +9223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -9249,7 +9249,7 @@
 				)
 			)
 		)
-		(property "Part Number" "DS1021-2*3SF11-B"
+		(property "Part Number" "T821106A1S100CEU"
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -9258,7 +9258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CONNFLY"
+		(property "Manufacturer" "AMPHENOL COMMUNICATIONS SOLUTIONS"
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -9288,7 +9288,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9303,7 +9303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "611127fd-76d0-4711-84fb-d99843b9df4b")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 115.57 130.81 0)
 			(effects
 				(font
@@ -9383,7 +9383,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9399,7 +9399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62e971b6-e7ed-4d0a-8b5d-3828cd47e843")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 48.26 167.132 90)
 			(effects
 				(font
@@ -9479,7 +9479,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64ba5a69-afea-4ab9-9959-6c35c52f644c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR03"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -9545,7 +9545,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR037")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9560,7 +9560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "684a59ea-6368-4e75-bfc9-5b1ebb549196")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 96.52 130.81 0)
 			(effects
 				(font
@@ -9640,7 +9640,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9656,7 +9656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e4af444-526b-48b5-af6f-032680ef519f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 46.99 146.05 0)
 			(effects
 				(font
@@ -9705,7 +9705,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9722,7 +9722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74dd869c-0303-40b1-acfc-15f705ab62ae")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 77.47 166.37 0)
 			(effects
 				(font
@@ -9815,7 +9815,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10017,7 +10017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "950f28fa-727e-4e9d-a68d-f9ec6c4c6b56")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR011"
 			(at 95.25 163.83 0)
 			(effects
 				(font
@@ -10067,7 +10067,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR042")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10083,7 +10083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "974a2d21-b313-4aef-a4aa-aada50146210")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 143.51 149.86 0)
 			(effects
 				(font
@@ -10132,7 +10132,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10148,7 +10148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c007fc-a6ec-4123-b3e6-73a619e77fda")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR04"
 			(at 53.34 77.47 0)
 			(effects
 				(font
@@ -10198,7 +10198,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR038")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10843,7 +10843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d509b4dc-5c15-4f85-84be-9d77321c646a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 229.87 123.19 0)
 			(effects
 				(font
@@ -10892,7 +10892,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10908,7 +10908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d57feb43-7454-431f-9c60-c5076203873d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 53.34 109.22 0)
 			(effects
 				(font
@@ -10957,7 +10957,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10972,7 +10972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7857f71-7208-4a9a-8b11-2e81f7a1400c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 106.68 83.82 0)
 			(effects
 				(font
@@ -11021,7 +11021,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11037,7 +11037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc78e8ba-a495-4617-b41c-3260bf8586c7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 133.35 194.31 0)
 			(effects
 				(font
@@ -11086,7 +11086,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11367,7 +11367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef434a5b-5bb1-492b-9939-a86eb01b05f2")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 34.29 148.59 0)
 			(effects
 				(font
@@ -11451,7 +11451,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11467,7 +11467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f675c822-e429-455e-bac0-341569991e82")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 55.88 194.31 0)
 			(effects
 				(font
@@ -11516,7 +11516,7 @@
 		(instances
 			(project "ATXMEGA256_Miniboard"
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
