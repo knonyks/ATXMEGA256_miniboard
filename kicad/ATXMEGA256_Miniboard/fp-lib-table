@@ -6,4 +6,6 @@
   (lib (name "10118192-0001LF")(type "KiCad")(uri "${KIPRJMOD}/lib/10118192-0001LF")(options "")(descr ""))
   (lib (name "FSM2JSMAA")(type "KiCad")(uri "${KIPRJMOD}/lib/FSM2JSMAA")(options "")(descr ""))
   (lib (name "LFXTAL025159")(type "KiCad")(uri "${KIPRJMOD}/lib/LFXTAL025159")(options "")(descr ""))
+  (lib (name "DG381-3.5-02P-13-00AH")(type "KiCad")(uri "${KIPRJMOD}/lib/DG381-3.5-02P-13-00AH")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/lib/logo")(options "")(descr ""))
 )
