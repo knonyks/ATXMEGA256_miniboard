@@ -3348,10 +3348,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Switch:SW_MEC_5E"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3360,7 +3357,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 0.635 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3368,8 +3365,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "SW_MEC_5E"
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3377,7 +3374,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3385,8 +3382,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3394,7 +3391,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Description" "MEC 5E single pole normally-open tactile switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3412,9 +3409,42 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5E_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center -2.032 0)
+					(center -1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -3426,7 +3456,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 3.81) (xy 0 5.588)
 					)
 					(stroke
 						(width 0)
@@ -3437,7 +3467,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -3449,7 +3479,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3460,7 +3490,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3478,7 +3508,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3488,6 +3518,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4245,6 +4311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423acc4d-23d4-4223-817f-bc3f760ea1f0")
+	)
+	(junction
+		(at 50.8 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42682f57-aa74-4360-86bf-8db72d9cb488")
 	)
 	(junction
 		(at 62.23 34.29)
@@ -5014,16 +5086,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 59.69) (xy 93.98 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d08ef85-659a-4b03-82bc-7a9c8a3e0ede")
-	)
-	(wire
-		(pts
 			(xy 144.78 115.57) (xy 143.51 115.57)
 		)
 		(stroke
@@ -5341,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "2777e15d-08e5-4b51-a877-4b7e779169d5")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2933677d-edca-4f0c-bad0-9a267b13ac33")
 	)
 	(wire
 		(pts
@@ -6454,6 +6526,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 100.33) (xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0266bc-b651-4b14-9d0f-941b6a4f54f3")
+	)
+	(wire
+		(pts
 			(xy 217.17 113.03) (xy 217.17 114.3)
 		)
 		(stroke
@@ -6584,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 53.34 86.36)
+			(xy 43.18 86.36) (xy 50.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6944,6 +7026,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 86.36) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4532ed5-47f7-42ed-832d-3d6c07b61f65")
+	)
+	(wire
+		(pts
 			(xy 135.89 95.25) (xy 144.78 95.25)
 		)
 		(stroke
@@ -6971,6 +7063,16 @@
 			(type default)
 		)
 		(uuid "c5cc22cc-79ef-4117-9199-a1a8cc7d8d64")
+	)
+	(wire
+		(pts
+			(xy 50.8 99.06) (xy 50.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ef12ff-bc0c-4014-aff7-09c57c31c4b8")
 	)
 	(wire
 		(pts
@@ -7021,6 +7123,16 @@
 			(type default)
 		)
 		(uuid "ca6d6755-04cb-441d-9c0e-63ea2dd88709")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa9f0f8-3af2-4607-9821-bc9b25425784")
 	)
 	(bus
 		(pts
@@ -7733,7 +7845,7 @@
 		(uuid "4b3bb4f3-1b2e-432a-82d8-568e9f5b6d04")
 	)
 	(label "~{RESET}"
-		(at 45.72 86.36 0)
+		(at 43.18 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7891,6 +8003,16 @@
 			(justify left bottom)
 		)
 		(uuid "8129e774-4930-4078-ae3c-6da30024047e")
+	)
+	(label "MCU_AVCC"
+		(at 95.25 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87cf1c81-72cf-4279-b1b8-83ec8fc9b6b1")
 	)
 	(label "PC4"
 		(at 190.5 44.45 0)
@@ -10996,7 +11118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Switch:SW_MEC_5E")
 		(at 53.34 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11004,9 +11126,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c648cf94-d0c9-4bd7-8119-fd08204ae73f")
+		(uuid "c9c70c25-ab9a-4685-b355-4cb6589c9686")
 		(property "Reference" "SW1"
-			(at 54.61 92.71 90)
+			(at 54.61 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11137,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 54.61 95.25 90)
+			(at 54.61 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +11146,7 @@
 			)
 		)
 		(property "Footprint" "FSM2JSMAA:SW_SMD_2-1437565-8_4_4.50_6.00_6.00_5.00"
-			(at 48.26 93.98 0)
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,8 +11154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 48.26 93.98 0)
+		(property "Datasheet" ""
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,6 +11169,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Part Number" "FSM2JSMAA"
@@ -11067,14 +11190,20 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "dd994ce3-d0ed-4e22-9512-9d90ea897116")
-		)
 		(pin "2"
-			(uuid "38bac674-324a-4aa9-bc8b-817bbbf55a81")
+			(uuid "29166507-5d57-412a-9a02-a90a5cf5aa93")
+		)
+		(pin "3"
+			(uuid "e14bfbf6-91d5-41ec-9479-4a80d5177964")
+		)
+		(pin "1"
+			(uuid "9c1cab44-eadb-4b9f-b1d4-337376533f14")
+		)
+		(pin "4"
+			(uuid "48269e1b-1d76-48d3-ba49-0ae38d313e69")
 		)
 		(instances
-			(project "ATXMEGA256_Miniboard"
+			(project ""
 				(path "/ef1e5883-c6cf-4bad-8eaa-8ec9109f9d71"
 					(reference "SW1")
 					(unit 1)
