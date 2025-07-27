@@ -58,7 +58,7 @@
           "width": 0.0
         },
         {
-          "gap": 0.5,
+          "gap": 0.143,
           "via_gap": 0.5,
           "width": 0.254
         }
@@ -140,7 +140,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.25,
@@ -231,7 +231,7 @@
         },
         {
           "diameter": 0.6,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.8,
@@ -553,7 +553,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://onyks_template.kicad_wks"
+    "page_layout_descr_file": "../template/onyks_template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
