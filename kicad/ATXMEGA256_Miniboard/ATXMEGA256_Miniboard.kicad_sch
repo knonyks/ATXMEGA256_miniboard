@@ -7994,6 +7994,16 @@
 		)
 		(uuid "7db9190a-350c-429b-a5ca-eae8420ef189")
 	)
+	(label "PD+"
+		(at 196.85 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e33fe9b-bea1-4d61-befe-9c81c970e42f")
+	)
 	(label "PB6"
 		(at 135.89 95.25 0)
 		(effects
@@ -8023,6 +8033,16 @@
 			(justify left bottom)
 		)
 		(uuid "8d5d7215-ad5e-4b3d-80ec-4129a961c884")
+	)
+	(label "PD-"
+		(at 196.85 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f3974dc-62e0-44c4-8f79-2d9024f1265f")
 	)
 	(label "D-"
 		(at 226.06 82.55 180)
