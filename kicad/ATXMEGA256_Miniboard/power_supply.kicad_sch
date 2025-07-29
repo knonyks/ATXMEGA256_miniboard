@@ -4622,7 +4622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturet" "DIOTEC SEMICONDUCTOR"
+		(property "Manufacturer" "DIOTEC SEMICONDUCTOR"
 			(at 80.772 77.724 0)
 			(effects
 				(font

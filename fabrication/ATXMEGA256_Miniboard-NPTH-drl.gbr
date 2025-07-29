@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
-%TF.CreationDate,2025-07-29T16:04:21+02:00*%
+%TF.CreationDate,2025-07-29T19:57:23+02:00*%
 %TF.ProjectId,ATXMEGA256_Miniboard,4154584d-4547-4413-9235-365f4d696e69,1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,NonPlated,1,4,NPTH*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.0) date 2025-07-29 16:04:21*
+G04 Created by KiCad (PCBNEW 9.0.0) date 2025-07-29 19:57:23*
 %MOMM*%
 %LPD*%
 G01*
