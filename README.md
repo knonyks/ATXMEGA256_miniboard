@@ -1,16 +1,22 @@
 # ONYKS ATXMEGA256 Miniboard
 Miniboard to prosta płytka deweloperska stworzona dla mikrokontrolera ATXMEGA256 przez KN ONYKS. Płytka zawiera możliwie minimalną liczbę elementów potrzebnych do zaczęcia programowania tego mikrokontrolera aby użytkownik miał pełną kontrolę nad swoim projektem.
 
-# TODO
+![Top](./doc/img/ATXMEGA256_Miniboard_top.png)
+<br>
+<br>
+![Bottom](./doc/img/ATXMEGA256_Miniboard_bottom.png)
+
+## TODO
 
 - [x] Schemat połączeń MCU
 - [x] Schemat sekcji zasilania
-- [ ] PCB
-- [ ] Dokumentacja - schematy, PCB, zdjęcia
+- [x] PCB
+- [x] Dokumentacja - schematy, PCB, zdjęcia
 - [ ] Dokumentacja - instrukcja obsługi
-- [ ] Dokumentacja - BOM
-- [ ] Toolchain (oddzielne repo)
-- [ ] Modele 3D
+- [x] Dokumentacja - BOM
+- [ ] Toolchain
+- [x] Modele 3D
+- [ ] Rysunek techniczny (poglądowy)
 
 ## Autorzy
 Szymon Bartosik, Mateusz Turycz
