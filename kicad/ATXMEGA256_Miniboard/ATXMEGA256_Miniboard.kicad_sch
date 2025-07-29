@@ -7,9 +7,9 @@
 	(title_block
 		(title "ATXMEGA256 Miniboard")
 		(date "2025-06-26")
-		(rev "1.2")
+		(rev "1.0")
 		(company "Koło Naukowe Mikrosystemów ONYKS")
-		(comment 1 "Szymon Bartosik, Mateusz Turycz, Marcin Krawiec")
+		(comment 1 "Szymon Bartosik, Mateusz Turycz")
 		(comment 3 "Wszytskie elementy RLC są w obudowach SMD 0603 o ile nie \\n zaznaczono inaczej.")
 	)
 	(lib_symbols
