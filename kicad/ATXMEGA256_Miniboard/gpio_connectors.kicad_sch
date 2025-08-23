@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20250610)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "20830ba6-96c4-469f-a593-36a39269090d")
 	(paper "A4")
 	(title_block
 		(title "ATXMEGA256 Miniboard")
-		(date "2025-03-19")
-		(rev "1.1")
+		(date "2025-06-26")
+		(rev "1.0")
 		(company "Koło Naukowe Mikrosystemów ONYKS")
 		(comment 1 "Szymon Bartosik, Mateusz Turycz")
 		(comment 3 "Wszytskie elementy RLC są w obudowach SMD 0603 o ile nie \\n zaznaczono inaczej.")
@@ -21,6 +21,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 1.27 7.62 0)
 				(effects
@@ -39,47 +40,47 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_02x05_Odd_Even_1_1"
@@ -388,20 +389,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3V3"
@@ -414,38 +416,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3V3_0_1"
@@ -510,20 +512,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
@@ -536,38 +539,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -618,7 +621,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 20479d70-c235-42ea-b29e-240106b3ad26)
+		(uuid "20479d70-c235-42ea-b29e-240106b3ad26")
 	)
 	(rectangle
 		(start 76.2 54.61)
@@ -630,7 +633,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 662456ce-86f0-4b49-9759-3f55f9b22308)
+		(uuid "662456ce-86f0-4b49-9759-3f55f9b22308")
 	)
 	(rectangle
 		(start 180.34 121.92)
@@ -642,7 +645,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 826a9365-4ad4-4503-ab6a-9e55fc838464)
+		(uuid "826a9365-4ad4-4503-ab6a-9e55fc838464")
 	)
 	(rectangle
 		(start 180.34 76.2)
@@ -654,7 +657,7 @@
 		(fill
 			(type none)
 		)
-		(uuid b17dec13-d18e-4969-91d3-3463d09e73e0)
+		(uuid "b17dec13-d18e-4969-91d3-3463d09e73e0")
 	)
 	(rectangle
 		(start 76.2 121.92)
@@ -666,7 +669,7 @@
 		(fill
 			(type none)
 		)
-		(uuid b43382af-86e7-40ed-9e31-de991e9e127e)
+		(uuid "b43382af-86e7-40ed-9e31-de991e9e127e")
 	)
 	(rectangle
 		(start 28.702 168.91)
@@ -679,7 +682,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ba22bcf1-6879-4317-a04a-3ab8f14c6a14)
+		(uuid "ba22bcf1-6879-4317-a04a-3ab8f14c6a14")
 	)
 	(rectangle
 		(start 129.54 100.33)
@@ -691,7 +694,7 @@
 		(fill
 			(type none)
 		)
-		(uuid bf6b1554-92fb-42a2-a8e0-39eefe000760)
+		(uuid "bf6b1554-92fb-42a2-a8e0-39eefe000760")
 	)
 	(text "GPIO Bank E"
 		(exclude_from_sim no)
@@ -3211,20 +3214,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD"
 			(at 151.13 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -3237,20 +3240,20 @@
 		)
 		(property "Part Number" "ZL264-10DG"
 			(at 151.13 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "NINIGI"
 			(at 151.13 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -3304,11 +3307,11 @@
 		(uuid "1f9915cb-a028-4b9f-951a-225fb37f3e52")
 		(property "Reference" "#PWR035"
 			(at 109.22 100.33 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_IO"
@@ -3321,29 +3324,29 @@
 		)
 		(property "Footprint" ""
 			(at 109.22 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 109.22 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 109.22 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3386,20 +3389,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD"
 			(at 201.93 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 201.93 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -3412,20 +3415,20 @@
 		)
 		(property "Part Number" "ZL264-10DG"
 			(at 201.93 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "NINIGI"
 			(at 201.93 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -3496,20 +3499,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD"
 			(at 97.79 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 97.79 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -3522,20 +3525,20 @@
 		)
 		(property "Part Number" "ZL264-10DG"
 			(at 97.79 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "NINIGI"
 			(at 97.79 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -3589,11 +3592,11 @@
 		(uuid "5517df6a-8def-4258-8194-4e0ed8dbdfe7")
 		(property "Reference" "#PWR033"
 			(at 142.24 86.36 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -3606,20 +3609,20 @@
 		)
 		(property "Footprint" ""
 			(at 142.24 80.01 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 142.24 80.01 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -3654,11 +3657,11 @@
 		(uuid "5fcb1c42-6a8d-4648-984b-05026fd3b081")
 		(property "Reference" "#PWR030"
 			(at 162.56 54.61 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_IO"
@@ -3671,29 +3674,29 @@
 		)
 		(property "Footprint" ""
 			(at 162.56 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 162.56 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 162.56 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3736,20 +3739,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD"
 			(at 201.93 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 201.93 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -3762,20 +3765,20 @@
 		)
 		(property "Part Number" "ZL264-10DG"
 			(at 201.93 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "NINIGI"
 			(at 201.93 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -3829,11 +3832,11 @@
 		(uuid "7f25d205-1943-4d8d-8b85-80eb5b67c85e")
 		(property "Reference" "#PWR034"
 			(at 191.77 86.36 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -3846,20 +3849,20 @@
 		)
 		(property "Footprint" ""
 			(at 191.77 80.01 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 191.77 80.01 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -3894,11 +3897,11 @@
 		(uuid "80a17266-7b9c-41f1-ac49-f91b92f28022")
 		(property "Reference" "#PWR037"
 			(at 213.36 100.33 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_IO"
@@ -3911,29 +3914,29 @@
 		)
 		(property "Footprint" ""
 			(at 213.36 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 213.36 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 213.36 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3960,11 +3963,11 @@
 		(uuid "9382f40e-94b5-4829-90d7-bf98492311f5")
 		(property "Reference" "#PWR038"
 			(at 88.9 132.08 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -3977,20 +3980,20 @@
 		)
 		(property "Footprint" ""
 			(at 88.9 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 88.9 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -4025,11 +4028,11 @@
 		(uuid "9888b220-5f7c-4099-b5aa-4599c5d7eca6")
 		(property "Reference" "#PWR032"
 			(at 88.9 86.36 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4042,20 +4045,20 @@
 		)
 		(property "Footprint" ""
 			(at 88.9 80.01 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 88.9 80.01 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -4090,11 +4093,11 @@
 		(uuid "a51fe4c5-ea4e-4f0b-8ba5-1e3a0b99a956")
 		(property "Reference" "#PWR031"
 			(at 213.36 54.61 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_IO"
@@ -4107,29 +4110,29 @@
 		)
 		(property "Footprint" ""
 			(at 213.36 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 213.36 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 213.36 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4156,11 +4159,11 @@
 		(uuid "b8d76f92-a6b9-425c-a5d5-85d665e56883")
 		(property "Reference" "#PWR029"
 			(at 109.22 54.61 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_IO"
@@ -4173,29 +4176,29 @@
 		)
 		(property "Footprint" ""
 			(at 109.22 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 109.22 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 109.22 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4239,20 +4242,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD"
 			(at 151.13 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -4265,20 +4268,20 @@
 		)
 		(property "Part Number" "ZL264-10DG"
 			(at 151.13 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "NINIGI"
 			(at 151.13 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -4332,11 +4335,11 @@
 		(uuid "c2089830-b2d1-4f03-8d48-27f6a11ff3ec")
 		(property "Reference" "#PWR040"
 			(at 193.04 132.08 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4349,20 +4352,20 @@
 		)
 		(property "Footprint" ""
 			(at 193.04 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 193.04 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -4413,20 +4416,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD"
 			(at 97.79 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 97.79 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -4439,20 +4442,20 @@
 		)
 		(property "Part Number" "ZL264-10DG"
 			(at 97.79 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "NINIGI"
 			(at 97.79 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -4506,11 +4509,11 @@
 		(uuid "f368c494-778e-4661-9e93-e2c01ceabb26")
 		(property "Reference" "#PWR036"
 			(at 162.56 100.33 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_IO"
@@ -4523,29 +4526,29 @@
 		)
 		(property "Footprint" ""
 			(at 162.56 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 162.56 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 162.56 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4572,11 +4575,11 @@
 		(uuid "ff375a40-7fdc-44e5-abb5-96df723538b2")
 		(property "Reference" "#PWR039"
 			(at 142.24 132.08 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4589,20 +4592,20 @@
 		)
 		(property "Footprint" ""
 			(at 142.24 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 142.24 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
