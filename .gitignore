@@ -25,3 +25,16 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Texstudio
+doc/guides/pdf/*.toc
+doc/guides/pdf/*.out
+doc/guides/pdf/*.log
+doc/guides/pdf/*.aux
+doc/guides/pdf/*.synctex.gz
+
+doc/guides/latex/*.toc
+doc/guides/latex/*.out
+doc/guides/latex/*.log
+doc/guides/latex/*.aux
+doc/guides/latex/*.synctex.gz
