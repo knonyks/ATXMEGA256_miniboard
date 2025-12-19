@@ -13,6 +13,7 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
+#include <avr/xmega.h>
 
 // External libraries
 

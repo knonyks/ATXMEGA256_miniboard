@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": ["__AVR_ATXMEGA256A3BU__"],
+            "defines": ["__AVR_ATxmega256A3B__"],
             "compilerPath": "/usr/bin/avr-gcc",
             "cStandard": "c11",
             "cppStandard": "c++11",
